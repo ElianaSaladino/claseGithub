@@ -13,12 +13,17 @@ h1{
     max-width: 650px;
     margin: 15px auto;
 }
-/* mobile last */
-@media (max-width:560px){
-    .holaMundo{
-        background-color: rgb(105, 155, 215);
+.holaMundo:hover{
+    background-color: #73dddb;
+    transition: .4s;
+    color: #ef5cb7;
 }
+h1:hover{
+    color: azure;
+    transform: skew(-20deg);
+    transition: .4s;
 }
+
 .flex-index{
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +31,11 @@ h1{
 }
 .flex-index img{
     padding: 5px;
+}
+
+/* mobile last */
+@media (max-width:560px){
+    .holaMundo{
+        background-color: rgb(105, 155, 215);
+}
 }
